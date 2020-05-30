@@ -8,7 +8,7 @@ keywords: NDK编译链接库, libyuv
 
 使用NDK工具编译第三方源码获取Android平台的静态库.a和动态库.so，以libyuv源码库为例。
 
-## 文章的目的
+## 文章目的
 
 > 使用NDK工具编译第三方源码获取Android平台的静态库.a和动态库.so，以libyuv源码库为例。
 >
@@ -30,9 +30,9 @@ libyuv是谷歌开源的实现YUV与RGB之间的数据转换，以及YUV数据�
 
 源码地址：
 
-> https://chromium.googlesource.com/libyuv/libyuv
+> <https://chromium.googlesource.com/libyuv/libyuv>
 >
-> https://github.com/lemenkov/libyuv
+> <https://github.com/lemenkov/libyuv>
 
 ## 2.NDK工具编译步骤
 
