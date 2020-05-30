@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://oceanii.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: OceanII's Blog
+subtitle: "OceanII"
+description: "OceanII的个人博客"
+keywords: OceanII, oceanii
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: oceanii/oceanii.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -24,7 +24,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2020-05-30
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -33,12 +33,12 @@ compress_html:
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: OceanII
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: oceanii
+location: Nanjing, China
+email: g260864798@gmail.com
 
 # ---------------- #
 #    Navigation    #
