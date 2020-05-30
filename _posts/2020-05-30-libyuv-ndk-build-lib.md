@@ -36,7 +36,7 @@ libyuv是谷歌开源的实现YUV与RGB之间的数据转换，以及YUV数据�
 
 ## 2.NDK工具编译步骤
 
-### **1.修改Android.mk**
+### 1.修改Android.mk
 
 ​	在Android.mk文件中注释掉与jpeg相关的编译，修改后的内容如下：
 
@@ -151,7 +151,7 @@ include $(BUILD_NATIVE_TEST)
 
 ```
 
-### **2.新建Application.mk**
+### 2.新建Application.mk
 
 ​	在Android.mk所在文件夹新建Application.mk文件，指定编译的架构平台和Android版本，内容如下：
 
@@ -160,7 +160,7 @@ APP_ABI := armeabi-v7a arm64-v8a x86 x86_64
 APP_PLATFORM := android-18
 ```
 
-### **3.libyuv文件夹名修改为jni**
+### 3.libyuv文件夹名修改为jni
 
 ​	将libyuv文件夹，也就是Android.mk所在的文件夹名修改为jni，这是ndk-build命令默认指定的文件夹。NDK_PROJECT_PATH是编译工程所在的路径，此参数可省略，命令行内容如下：
 
@@ -168,6 +168,6 @@ APP_PLATFORM := android-18
 ndk-build NDK_PROJECT_PATH=./
 ```
 
-### **4.ndk-build命令编译**
+### 4.ndk-build命令编译
 
 编译前要确认已经配置了NDK环境，然后使用命令行进入到jni所在的文件夹，如果要清理生成的二进制文件和目标文件，先执行`ndk-build clean`清理缓存，再执行`ndk-build`进行编译库，编译完成后，在jni所在的文件夹会生成两个文件夹，libs文件夹中有`libyuv.so`动态库，obj文件夹中有`libyuv_static.a`静态库。可以在Android.mk中配置生成动态库还是静态库。
