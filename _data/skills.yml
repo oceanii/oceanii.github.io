@@ -13,4 +13,5 @@
 
 - name: Windows Developer Keywords
   keywords:
-      - QT OpenGL
+      - QT
+      - OpenGL
