@@ -1,6 +1,6 @@
 .container {
   width: auto;
-  max-width: 1020px;
+  max-width: 1320px;
   padding-left: 20px;
   padding-right: 20px
 }
@@ -11,7 +11,7 @@
 
 @media (max-width:60em) {
   .collection-card {
-    width: 45%;
+    width: 75%;
     height: 225px
   }
 }
