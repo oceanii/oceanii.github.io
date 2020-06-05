@@ -1,12 +1,12 @@
 ---
 layout: post
-title: linux常用命令
+title: Linux常用命令
 categories: 常用命令
 description: some word here
-keywords: 常用命令, linux
+keywords: 常用命令, Linux
 ---
 
-linux常用命令总结
+Linux常用命令总结
 
 ## 常用命令说明
 
@@ -14,7 +14,7 @@ linux常用命令总结
 >
 > Linux区分大小写，Windows不区分大小写
 >
-> 以下是最常用的linux命令，其他更多的linux命令详见网页：linux常用命令
+> 以下是最常用的Linux命令，其他更多的命令详见网页：Linux常用命令
 
 ## 文件目录
 

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: git常用命令
+title: Git常用命令
 categories: 常用命令
 description: some word here
-keywords: 常用命令, git
+keywords: 常用命令, Git
 ---
 
 git介绍以及常用命令总结
 
-## git介绍
+## Git介绍
 
-> git是一种分布式的版本管理系统
+> Git是一种分布式的版本管理系统
 >
-> git的作用是对代码文件进行版本管理，方便对不同时间段或不同分支之间的不同版本进行切换修改
+> Git的作用是对代码文件进行版本管理，方便对不同时间段或不同分支之间的不同版本进行切换修改
 
 ## 代码提交--基本操作
 
@@ -100,7 +100,7 @@ git push origin master
 git push origin HEAD:refs/for/master
 ```
 
-## git其他常用命令
+## 其他常用命令
 
 ```
 git status
