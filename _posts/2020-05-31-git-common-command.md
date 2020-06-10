@@ -93,11 +93,18 @@ git checkout Demo/com/example/HelloWorld/MainActivity.java
 --放弃当前分支中此文件的修改
 ```
 
-## git push命令
+## 推送到远程仓库命令
 
 ```
 git push origin master
 git push origin HEAD:refs/for/master
+```
+
+## 删除工作目录的所有修改
+
+```
+git reset --hard    删除当前所有的文件内容修改
+git clean -dfx    清理不受git管理的文件或目录
 ```
 
 ## 其他常用命令

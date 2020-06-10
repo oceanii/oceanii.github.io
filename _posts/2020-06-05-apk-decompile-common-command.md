@@ -1,12 +1,12 @@
 ---
 layout: post
-title: AndroidStudio常用快捷键
-categories: 常用快捷键
+title: Apk反编译常用方法
+categories: Apk反编译
 description: some word here
-keywords: 常用快捷键, AndroidStudio
+keywords: Apk反编译
 ---
 
-AndroidStudio常用快捷键总结
+Apk反编译常用方法总结
 
 ## AndroidStudio快捷键说明
 

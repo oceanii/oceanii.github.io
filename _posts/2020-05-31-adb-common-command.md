@@ -30,6 +30,7 @@ adb shell
 
 adb install f:/imageprocess.apk
 --电脑上的apk直接安装在手机上
+--如果提示错误，网上搜索下即可解决
 
 adb shell dumpsys activity | grep(findstr) "mResumedActivity"
 --显示当前手机窗口上的App包名和Activity名称
