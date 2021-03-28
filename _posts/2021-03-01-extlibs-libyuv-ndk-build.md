@@ -6,15 +6,19 @@ description: some word here
 keywords: NDK编译链接库, libyuv
 ---
 
-使用NDK工具编译第三方源码获取Android平台的静态库.a和动态库.so，以libyuv源码库为例。
+使用NDK工具编译第三方库libyuv源码获取Android平台的静态库.a和动态库.so
 
-## 文章目的
+## 环境配置说明
 
-> 使用NDK工具编译第三方源码获取Android平台的静态库.a和动态库.so，以libyuv源码库为例。
+> ndk版本：r18b
 >
-> 本次使用的ndk版本是r18b，如果需要armeabi库要使用r16b或更低版本编译。
+> libyuv版本：1744
 >
-> 注意：
+> 注：本次使用的ndk版本是r18b，如果需要armeabi库要使用r16b或更低版本编译。
+>
+> ------
+>
+> ndk版本主要变化：
 >
 > 1.ndk17及以后不再支持armeabi库
 >
@@ -23,6 +27,12 @@ keywords: NDK编译链接库, libyuv
 > `APP_STL := c++_shared` 、`arguments "-DANDROID_STL=c++_static`
 >
 > 3.ndk19及以后不再支持gcc编译，全面切换为clang编译
+>
+> ------
+>
+> ndk版本下载链接及详细变化说明：
+>
+> https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn
 
 ## 1.libyuv介绍
 
