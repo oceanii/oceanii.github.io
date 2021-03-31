@@ -32,7 +32,7 @@ keywords: NDK编译链接库, libyuv
 >
 > ndk版本下载链接及详细变化说明：
 >
-> https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn
+> [https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn](https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn)
 
 ## 1.libyuv介绍
 
