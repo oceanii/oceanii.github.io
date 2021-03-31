@@ -26,15 +26,15 @@ libjpeg-turbo图像编解码器，使用了SIMD指令（MMX，SSE2，NEON，Alti
 
 源码地址：
 
-> https://libjpeg-turbo.org/
+> [https://libjpeg-turbo.org/](https://libjpeg-turbo.org/)
 >
-> https://github.com/libjpeg-turbo/libjpeg-turbo
+> [https://github.com/libjpeg-turbo/libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo)
 
 ## 2.AndroidStudio-CMake工具编译步骤
 
 ### 1.新建工程
 
-新建AndroidStudio带有CPP的工程
+在AndroidStudio中新建带有CPP的工程
 
 ### 2.复制libjpeg-turbo源码
 

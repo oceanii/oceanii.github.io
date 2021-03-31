@@ -28,9 +28,9 @@ libpng是一套免费的、公开源代码的程序库，支持对PNG图形文�
 
 源码地址：
 
-> http://www.libpng.org/pub/png/libpng.html
+> [http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html)
 >
-> https://github.com/glennrp/libpng
+> [https://github.com/glennrp/libpng](https://github.com/glennrp/libpng)
 
 ### 2.zlib介绍
 
@@ -38,9 +38,9 @@ zlib是通用的压缩库，提供了一套内存内压缩和解压函数，并�
 
 源码地址：
 
-> https://zlib.net/
+> [https://zlib.net/](https://zlib.net/)
 >
-> https://github.com/madler/zlib
+> [https://github.com/madler/zlib](https://github.com/madler/zlib)
 
 ## 2.NDK工具编译步骤
 
