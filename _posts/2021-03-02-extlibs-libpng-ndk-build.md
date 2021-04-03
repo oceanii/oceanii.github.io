@@ -3,10 +3,10 @@ layout: post
 title: libpng-NDK工具编译Android平台静态库
 categories: 编译三方库
 description: some word here
-keywords: 编译三方库, libpng
+keywords: 编译三方库, libpng, libz
 ---
 
-简介：使用NDK工具编译第三方库libpng源码获取Android平台的静态库.a
+简介：使用NDK工具编译第三方库libpng和zlib源码获取Android平台的静态库.a
 
 ## 环境配置说明
 
@@ -44,7 +44,9 @@ zlib是通用的压缩库，提供了一套内存内压缩和解压函数，并�
 
 ## 2.NDK工具编译步骤
 
-### 1.新建Android.mk
+### 1.libpng编译
+
+#### 1.新建Android.mk
 
 在源码文件夹中新建Android.mk文件，添加如下内容：
 
@@ -98,7 +100,7 @@ endif
 include $(BUILD_STATIC_LIBRARY)
 ```
 
-### 2.新建Application.mk
+#### 2.新建Application.mk
 
 在Android.mk所在文件夹新建Application.mk文件，指定编译的架构平台和Android版本，Android版本可以不指定，编译时会自动采用支持的最小Android版本，内容如下：
 
@@ -107,11 +109,11 @@ APP_ABI := armeabi-v7a arm64-v8a
 APP_PLATFORM := android-18
 ```
 
-### 3.源码文件夹名修改为jni
+#### 3.源码文件夹名修改为jni
 
-将libjpeg-turbo文件夹，也就是Android.mk所在的文件夹名修改为jni，这是ndk-build编译命令默认指定的文件夹。
+将libpng文件夹，也就是Android.mk所在的文件夹名修改为jni，这是ndk-build编译命令默认指定的文件夹。
 
-### 4.ndk-build命令编译
+#### 4.ndk-build命令编译
 
 编译前要确认已经配置了NDK环境，然后使用命令行进入到jni所在的文件夹，执行编译命令:
 
@@ -133,3 +135,58 @@ pngpriv.h
 pngstruct.h
 ```
 
+### 2.zlib编译
+
+#### 1.新建Android.mk
+
+在源码文件夹中新建Android.mk文件，添加如下内容：
+
+```makefile
+LOCAL_PATH:= $(call my-dir)  
+
+include $(CLEAR_VARS)  
+
+LOCAL_SRC_FILES := \
+    adler32.c \
+    compress.c \
+    crc32.c \
+    deflate.c \
+    gzclose.c \
+    gzlib.c \
+    gzread.c \
+    gzwrite.c \
+    infback.c \
+    inffast.c \
+    inflate.c \
+    inftrees.c \
+    trees.c \
+    uncompr.c \
+    zutil.c  
+
+LOCAL_MODULE:= libz  
+
+include $(BUILD_STATIC_LIBRARY)
+```
+
+#### 2.新建Application.mk
+
+在Android.mk所在文件夹新建Application.mk文件，指定编译的架构平台和Android版本，Android版本可以不指定，编译时会自动采用支持的最小Android版本，内容如下：
+
+```makefile
+APP_ABI := armeabi-v7a arm64-v8a
+APP_PLATFORM := android-18
+```
+
+#### 3.源码文件夹名修改为jni
+
+将zlib文件夹，也就是Android.mk所在的文件夹名修改为jni，这是ndk-build编译命令默认指定的文件夹。
+
+#### 4.ndk-build命令编译
+
+编译前要确认已经配置了NDK环境，然后使用命令行进入到jni所在的文件夹，执行编译命令:
+
+```
+ndk-build
+```
+
+编译完成后，在jni所在的文件夹会生成obj文件夹，里面有`libz.a`静态库。可以在Android.mk中配置生成动态库还是静态库。
