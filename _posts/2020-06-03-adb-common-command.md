@@ -6,7 +6,7 @@ description: some word here
 keywords: 常用命令, adb
 ---
 
-adb常用命令总结
+简介：adb常用命令总结
 
 ## 常用命令说明
 

@@ -6,7 +6,7 @@ description: some word here
 keywords: 常用命令, Git
 ---
 
-git介绍以及常用命令总结
+简介：git介绍以及常用命令总结
 
 ## Git介绍
 

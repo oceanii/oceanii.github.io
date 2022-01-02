@@ -6,7 +6,7 @@ description: some word here
 keywords: 常用快捷键, AndroidStudio
 ---
 
-AndroidStudio常用快捷键总结
+简介：AndroidStudio常用快捷键总结
 
 ## AndroidStudio快捷键说明
 

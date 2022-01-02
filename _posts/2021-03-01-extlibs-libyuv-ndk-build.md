@@ -6,7 +6,7 @@ description: some word here
 keywords: NDK编译链接库, libyuv
 ---
 
-使用NDK工具编译第三方库libyuv源码获取Android平台的静态库.a和动态库.so
+简介：使用NDK工具编译第三方库libyuv源码获取Android平台的静态库.a和动态库.so
 
 ## 环境配置说明
 
