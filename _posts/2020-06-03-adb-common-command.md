@@ -32,8 +32,8 @@ adb install f:/imageprocess.apk
 --电脑上的apk直接安装在手机上
 --如果提示错误，网上搜索下即可解决
 
-adb shell dumpsys activity | grep(findstr) "mResumedActivity"
---显示当前手机窗口上的App包名和Activity名称
+adb shell dumpsys activity | grep "mResumedActivity"
+--显示当前手机窗口上的App包名和Activity名称（grep可以用findstr替换）
 
 adb shell pm list packages
 --列出安装的所有应用包名
@@ -51,7 +51,7 @@ adb shell dumpsys meminfo com.example.demo
 ### 1.获取手机中的软件安装包和应用数据
 
 ```
-1.adb shell dumpsys activity | grep(findstr) "mResumedActivity"
+1.adb shell dumpsys activity | grep "mResumedActivity"
   adb shell dumpays activity top
   --查看当前包名和页面的Activity名称
 2.adb shell pm path com.tencent.qq
@@ -69,10 +69,10 @@ adb shell dumpsys meminfo com.example.demo
   --确保手机已经root
 2.cd data/app
   --找到apk的包名
-3.adb push f:/cjson.so /data/app/com.example.demo/lib/arm
+3.adb push f:/cjson.so /data/app/com.example.demo/lib/arm64
   --将so文件push到apk中，替换原有的同名so文件
 4.替换时如果遇到只读权限错误，则执行：
-  (1) adb reboot remount
+  (1) adb reboot
   (2) adb remount
 ```
 
