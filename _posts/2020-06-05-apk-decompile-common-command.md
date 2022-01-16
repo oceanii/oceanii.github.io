@@ -37,7 +37,7 @@ apk中的classes.dex中提取jar包，cmd中执行命令：d2j-dex2jar.bat -f ba
 
 ## 3.jd-gui查看jar包中的Java代码
 
-工具地址：[https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui
+工具地址：[https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
 
 ```
 使用：可直接打开jar包文件
