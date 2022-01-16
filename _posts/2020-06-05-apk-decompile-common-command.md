@@ -6,7 +6,7 @@ description: some word here
 keywords: Apk反编译
 ---
 
-这篇文章主要介绍Apk反编译常用工具和方法总结
+这篇文章主要介绍Apk反编译常用工具和方法总结。
 
 ## 简介
 
