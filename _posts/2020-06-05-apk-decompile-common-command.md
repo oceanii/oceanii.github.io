@@ -6,6 +6,8 @@ description: some word here
 keywords: Apk反编译
 ---
 
+这篇文章主要介绍Apk反编译常用工具和方法总结
+
 ## 简介
 
 > 直接修改APK的后缀名，改成xxx.zip，解压能够获取一些png或者jpg的位图资源，如果是xml资源，打开是乱码，并且java代码也无法看到，因为都被打包到class.dex文件中。
