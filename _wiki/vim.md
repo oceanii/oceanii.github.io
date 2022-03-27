@@ -5,8 +5,6 @@ cate1: Tools
 cate2: Editor
 description: 个人最常用的 Vim 常用操作。
 keywords: Vim
-type: link
-link: https://github.com/oceanii/vim
 ---
 
 ### 移动
