@@ -5,6 +5,8 @@ cate1: Tools
 cate2: Editor
 description: 个人最常用的 Vim 常用操作。
 keywords: Vim
+type: link
+link: https://github.com/oceanii/vim
 ---
 
 ### 移动
@@ -28,7 +30,7 @@ keywords: Vim
 | 本单词尾（已在本词尾则跳到后一单词尾） | `e`  |
 
 **以屏幕为单位**
- 
+
 | 功能                     | 按键     |
 |:-------------------------|:---------|
 | 向下翻页                 | `CTRL-f` |
