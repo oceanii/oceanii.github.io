@@ -7,9 +7,7 @@ description: 个人最常用的adb命令
 keywords: 常用命令, adb
 ---
 
-简介：adb常用命令总结
-
-## 常用命令说明
+## adb常用命令说明
 
 > dumpsys命令：侧重于显示信息
 >

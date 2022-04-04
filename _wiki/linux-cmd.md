@@ -1,14 +1,13 @@
 ---
-layout: post
+layout: wiki
 title: Linux常用命令
-categories: 常用命令
-description: some word here
+cate1: 常用命令
+cate2:
+description: 个人最常用的linux命令
 keywords: 常用命令, Linux
 ---
 
-简介：Linux常用命令总结
-
-## 常用命令说明
+## Linux常用命令说明
 
 > Linux命令是对Linux系统进行管理的命令
 >

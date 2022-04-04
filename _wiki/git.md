@@ -7,8 +7,6 @@ description: 个人常用的Git命令
 keywords: 常用命令, Git
 ---
 
-简介：git介绍以及常用命令总结
-
 ## Git介绍
 
 > Git是一种分布式的版本管理系统
