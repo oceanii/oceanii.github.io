@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: wiki
 title: Git常用命令
-categories: 常用命令
-description: some word here
+cate1: 常用命令
+cate2:
+description: 个人常用的Git命令
 keywords: 常用命令, Git
 ---
 

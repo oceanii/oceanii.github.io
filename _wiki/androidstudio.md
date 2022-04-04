@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: wiki
 title: AndroidStudio常用快捷键
-categories: 常用快捷键
-description: some word here
+cate1: 软件快捷键
+cate2:
+description: AndroidStudio常用快捷键和使用技巧汇总
 keywords: 常用快捷键, AndroidStudio
 ---
-
-简介：AndroidStudio常用快捷键总结
 
 ## AndroidStudio快捷键说明
 
