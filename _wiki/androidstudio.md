@@ -17,21 +17,15 @@ keywords: 版本配置, 常用快捷键, AndroidStudio
 
 以下是个人最常用的两个版本配置，是能够正常运行的，可以在一台电脑上同时存在两个版本，只需要配置不同的SDK路径即可。
 
-- AndroidStudio版本下载地址：
+- [AndroidStudio版本下载地址](https://developer.android.com/studio/archive?hl=zh-cn)
 
-https://developer.android.com/studio/archive?hl=zh-cn
+- [Gradle插件与所需的Gradle版本对应关系](https://developer.android.com/studio/releases/gradle-plugin?hl=zh-cn)（工程的build.gradle中设置插件版本自动下载），
 
-- Gradle插件（工程的build.gradle中设置版本自动下载）
+- [Gradle版本下载地址](https://services.gradle.org/distributions/)（工程的gradle-wrapper.properties中设置版本自动下载，如下载失败需要手动下载）
 
-- Gradle版本下载地址（工程的gradle-wrapper.properties中设置版本自动下载，如下载失败需要手动下载）：
+- [CMake与NDK安装简介](https://developer.android.com/studio/projects/install-ndk?hl=zh-cn)（AS的SDK Manager中选取对应版本下载）
 
- https://services.gradle.org/distributions/
-
-- CMake（AS的SDK Manager中选取对应版本下载）
-
-- NDK版本下载地址（AS的SDK Manager中选取对应版本下载，也可以手动下载）：
-
-https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn
+- [NDK版本下载地址](https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn)（AS的SDK Manager中选取对应版本下载，也可以手动下载）
 
 第1个版本配置：
 
