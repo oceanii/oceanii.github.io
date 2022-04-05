@@ -1,9 +1,9 @@
 ---
 layout: wiki
-title: 通用软件集合
-cate1: 常用工具和软件
+title: 常用软件集合
+cate1: 工具软件
 cate2:
-description: 个人常用的通用软件集合
+description: 个人常用的软件集合
 keywords: 软件, 集合
 ---
 
