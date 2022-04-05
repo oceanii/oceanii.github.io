@@ -7,7 +7,7 @@ description: 个人最常用的linux命令
 keywords: 常用命令, Linux
 ---
 
-## Linux常用命令说明
+## 前言
 
 > Linux命令是对Linux系统进行管理的命令
 >
