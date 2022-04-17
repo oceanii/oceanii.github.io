@@ -12,7 +12,7 @@ keywords: 编译三方库, libjpeg-turbo
 
 > AndroidStudio版本：3.0.1
 >
-> 自带CMake版本：3.64111459
+> 自带CMake版本：3.6.4111459
 >
 > 自带ndk版本：r18b
 >
