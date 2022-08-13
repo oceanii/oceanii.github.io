@@ -10,6 +10,9 @@ description: "OceanII的个人博客"
 keywords: OceanII, oceanii
 timezone: Asia/Shanghai
 encoding: "utf-8"
+# 页面左下角显示的年份
+since: 2020
+# 源码仓库，请替换成自己的
 repository: oceanii/oceanii.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
