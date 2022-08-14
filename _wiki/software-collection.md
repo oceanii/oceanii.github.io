@@ -33,7 +33,6 @@ Window
 - 剪映专业版
 - 绘声绘影
 - 爱剪辑
-- Vegas
 - Shotcut
 
 Android
@@ -85,10 +84,10 @@ Android
 - Listen1
 - 灵音
 
-## 截图软件工具
+## 截图工具
 
 - Faststone Capture
-- 
+- SnapShot
 - Snipaste
 - ScreenToGif
 
