@@ -117,10 +117,28 @@
         <script src="https://beaudar.lipk.org/client.js"
                 repo="{{ site.beaudar.repo }}"
                 issue-term="title"
+				issue-label="{{ page.url | truncate: 50, '' }}
                 label="gitment"
                 theme="github-light"
                 comment-order="desc"
                 input-position="top"
+                crossorigin="anonymous"
+                async>
+        </script>
+  {% when 'giscus' %}
+        <script src="https://giscus.app/client.js"
+                data-repo="{{ site.giscus.repo }}"
+                data-repo-id="{{ site.giscus.repo-id }}"
+                data-category="{{ site.giscus.category }}"
+                data-category-id="{{ site.giscus.categor-id }}"
+                data-mapping="title"
+                data-strict="1"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="light"
+                data-lang="zh-CN"
+                data-loading="lazy"
                 crossorigin="anonymous"
                 async>
         </script>
