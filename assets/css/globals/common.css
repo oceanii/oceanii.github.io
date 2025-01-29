@@ -737,4 +737,5 @@ div.footnotes::before {
 
 img + em {
   color: grey;
+  display: block;
 }
