@@ -1,7 +1,7 @@
 ---
 layout: post
 title: libyuv-NDK工具编译Android平台静态库和动态库
-categories: 编译三方库
+categories: 编译Android三方库
 description: some word here
 keywords: NDK编译链接库, libyuv
 ---
