@@ -16,23 +16,6 @@ keywords: NDK编译链接库, libyuv
 >
 > 注：本次使用的ndk版本是r18b，如果需要armeabi库要使用r16b或更低版本编译。
 >
-> ------
->
-> ndk版本主要变化：
->
-> 1.ndk17及以后不再支持armeabi库
->
-> 2.ndk18及以后不再支持gnustl和stlport，libc++成为ndk中唯一可用的STL，动态库为libc++shared.so，静态库为libc++static.a，c++标准库默认使用libstdc++，如果改为libc++，需要在Application.mk或者build.gradle的cmake中指定，例：
->
-> `APP_STL := c++_shared` 、`arguments "-DANDROID_STL=c++_static`
->
-> 3.ndk19及以后不再支持gcc编译，全面切换为clang编译
->
-> ------
->
-> ndk版本下载链接及详细变化说明：
->
-> [https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn](https://developer.android.com/ndk/downloads/revision_history?hl=zh-cn)
 
 ## 1.libyuv介绍
 

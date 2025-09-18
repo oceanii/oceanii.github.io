@@ -1,9 +1,9 @@
 ---
 layout: post
 title: libjpeg-turbo-CMake工具编译Android平台静态库
-categories: 编译三方库
+categories: 编译Android三方库
 description: some word here
-keywords: 编译三方库, libjpeg-turbo
+keywords: 编译Android三方库, libjpeg-turbo
 ---
 
 简介：使用AndroidStudio自带的CMake工具编译第三方库libjpeg-turbo源码获取Android平台的静态库.a
